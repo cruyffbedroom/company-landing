@@ -1,11 +1,9 @@
 
 /*structure styles */
 
-}
 body {
     background-color:rgb(203, 145, 218);
     font-family: "Helvetica", sans-serif;
-    padding-top: 70px;
 }
 
 section {
@@ -23,9 +21,15 @@ h2 {
 
 /*navbar styles */
 
-button {
+.navbar-toggler {
     background-color: #2ecc71;
 }
+
+.navbar-toggler-icon {
+    content-visibility: visible;
+}
+
+
 
   .navbar-brand img {
     height: 60px; 
@@ -122,11 +126,16 @@ header {
     transform: scale(1.05);
 }
 
+p.lead {
+    margin-bottom: auto;
+}
+
 /* contact styles */
 
 footer {
 
     background-color: rgb(203, 145, 218);
+    margin-top: 1px;
 }
 
 .footer-content {
