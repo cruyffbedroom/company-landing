@@ -52,7 +52,7 @@ h2 {
   }
   .navbar-nav a {
     color: #0c0c0c; 
-    margin: 0 15px; /* Adjust spacing between nav items */
+    margin: 0 15px; 
   }
 
   .navbar-toggler {
@@ -79,8 +79,8 @@ header {
 
 .hero {
     background-color: rgb(203, 145, 218);
-    color: #fff; /* Adjust text color as needed */
-    padding: 25px 0; /* Adjust padding as needed */
+    color: #fff; 
+    padding: 25px 0; /
     text-align: center;
     width: 100%;
   }
@@ -92,18 +92,17 @@ header {
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
-    color: #fff; /* Adjust button text color */
-    background-color: #2ecc71; /* Adjust button background color */
-    border-radius: 5px; /* Adjust button border radius */
+    color: #fff; 
+    background-color: #2ecc71; 
+    border-radius: 5px; /
   }
 
-}
 
 /* project card styles */
 
 .services {
     background-color: rgb(203, 145, 218); 
-    padding: 50px 0; /* Adjust padding as needed */
+    padding: 50px 0; /
     text-align: center;
   }
 
@@ -168,8 +167,4 @@ footer {
         width: 100%; /* Full width for smaller screens */
         margin-bottom: 15px; 
     }
-
-    .list-of-skills{
-        flex-direction: column;
-        align-items: center;
 }
