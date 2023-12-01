@@ -81,7 +81,7 @@ header {
     width: 100%;
   }
 
-  .cta-btn {
+  .cna-btn {
     display: inline-block;
     padding: 5px 10px;
     margin-top: 10px;
@@ -124,25 +124,29 @@ header {
 
 /* contact styles */
 
-#contact {
-    padding: 50px 0; /* Add padding for better spacing */
+footer {
+
+    background-color: rgb(203, 145, 218);
 }
 
-.social-icons-container {
+.footer-content {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    background-color: (203, 145, 218); 
+  }
 
-.social-icon {
-    margin: 0 10px; /* Adjust margin for spacing */
-}
+  .social-icons {
+    display: flex;
+    padding-left: 10px;
+    gap: 10px;
+  }
 
-.social-icon a {
-    color: #007bff;
-    font-size: 24px;
-    text-decoration: none; /* Remove default underline */
-}
+  .social-icons a {
+    color: rgb(169, 243, 233); /* Adjust social icon color as needed */
+    font-size: 20px;
+  }
+
 
 /* Smaller screens */
 @media (max-width: 768px) {
